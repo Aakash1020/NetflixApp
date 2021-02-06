@@ -32,3 +32,13 @@
   transform: scale(1.09);
   opacity: 1;
 }
+
+.youtubePlayer {
+  position: fixed;
+  width: 800px;
+  height: 500px;
+  z-index: 5;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}

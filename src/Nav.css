@@ -19,11 +19,15 @@
 .nav__content {
   position: fixed;
   width: 120px;
+  object-fit: contain;
+  padding-left: 20px;
+  cursor: pointer;
   top: 0px;
   left: 0;
 }
-/* .nav__logo {
+.nav__avatar {
+  cursor: pointer;
   position: fixed;
-  width: 80px;
-  left: 0;
-} */
+  right: 20px;
+  width: 30px;
+}
